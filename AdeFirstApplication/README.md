@@ -1,3 +1,5 @@
+# AdeFirstApplication
+
 dalam tugas ini saya mengenal berbagai tool dalam layout editor dan melakukan tes atau debugging pada hard device. <br>
 untuk melakukan tes pada hard device atau debugging adalah :<br>
 1. pastikan perangkat hard device telah masuk ke mode pengembang atau developer <br>
