@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--  RelativeLayout digunakan untuk membuat sebuah layout yang bisa relative atau responsive   -->
+    <RelativeLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="431dp"
+        android:layout_height="414dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6">
+
+        <TextView
+            android:id="@+id/show_count"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="46dp"
+            android:background="#FFEB3B"
+            android:text="@string/angka"
+            android:textAlignment="center"
+            android:textSize="166sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_count"
+            android:layout_width="128dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="133dp"
+            android:backgroundTint="#3F51B5"
+            android:onClick="countUp"
+            android:text="@string/count" />
+
+        <Button
+            android:id="@+id/button_toast"
+            android:layout_width="130dp"
+            android:layout_height="85dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="48dp"
+            android:backgroundTint="#3F51B5"
+            android:onClick="showToast"
+            android:text="@string/toast" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

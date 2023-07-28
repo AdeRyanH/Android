@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ade First Application</string>
+    <string name="kal">"Apa Kabar Ade Ryan Herdinata"</string>
+    <string name="kalimat">Apa Kabar Ade Ryan Herdinata</string>
+    <string name="sel">Berkah Jaya Abadi</string>
+    <string name="angka">0</string>
+    <string name="count">COUNT</string>
+    <string name="toast">TOAST</string>
+    <string name="selamat">Selamat</string>
+    <string name="apakabar_ade_ryan_herdinata">ApaKabar Ade Ryan Herdinata</string>
+</resources>
