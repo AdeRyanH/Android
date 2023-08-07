@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+            android:id="@+id/article_heading"
+            android:layout_width="281dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="36dp"
+            android:background="#3F51B5"
+            android:padding="10dp"
+            android:text="@string/article_title"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="275dp"
+            android:layout_height="307dp"
+            app:layout_constraintEnd_toEndOf="@+id/article_heading"
+            app:layout_constraintStart_toStartOf="@+id/article_heading"
+            app:layout_constraintTop_toBottomOf="@+id/article_heading">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/article_subheading"
+                    android:layout_width="277dp"
+                    android:layout_height="45dp"
+                    android:padding="10dp"
+                    android:text="@string/article_subtitle" />
+
+                <TextView
+                    android:id="@+id/article"
+                    android:layout_width="277dp"
+                    android:layout_height="213dp"
+                    android:autoLink="web"
+                    android:text="@string/article_text"
+                    app:layout_constraintEnd_toEndOf="@+id/article_subheading"
+                    app:layout_constraintStart_toStartOf="@+id/article_subheading"
+                    app:layout_constraintTop_toBottomOf="@+id/article_subheading" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="186dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#3F51B5"
+            android:onClick="Pesan"
+            android:text="@string/add_comment"
+            app:cornerRadius="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

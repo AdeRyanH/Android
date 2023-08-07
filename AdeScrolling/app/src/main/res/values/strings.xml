@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ade Scrolling</string>
+    <string name="article_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id eros tellus. Duis ac tortor dapibus, tincidunt diam nec, semper ante. Quisque sed malesuada risus. Donec urna turpis, efficitur at auctor a, lacinia ac metus. Integer magna ipsum, tincidunt maximus sagittis id, bibendum quis sapien. Integer a finibus neque. Nunc id tempor ligula, at pretium massa. Vestibulum pretium vestibulum porttitor. www.guthib.com
+    \n\n Proin sapien lectus, tincidunt sagittis mi vel, fringilla faucibus justo. Cras placerat malesuada dolor vitae tempus. Sed arcu risus, imperdiet a ante non, imperdiet suscipit orci. In varius porttitor suscipit. Morbi suscipit ante a tempus ornare. Aliquam porttitor dapibus erat, vel consectetur lacus semper sit amet. Donec nec tortor justo. Vivamus dignissim lectus in nunc finibus elementum. Quisque ut libero velit. Nullam diam lorem, aliquet vel turpis at, rhoncus consequat mi.
+    </string>
+    <string name="article_subtitle">Article Subtitle</string>
+    <string name="article_title">Article Title</string>
+    <string name="add_comment">ADD COMMENT</string>
+</resources>
