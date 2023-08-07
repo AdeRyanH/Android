@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bangun Ruang App</string>
+    <string name="luas_dan_volume_balok">Luas dan Volume Prisma Segitiga Sama Sisi</string>
+    <string name="masukkan_lebar">Masukkan Alas Segitiga</string>
+    <string name="masukkan_tinggi">Masukkan Tinggi prisma</string>
+    <string name="masukkan_panjang">Masukkan Tinggi Segitiga</string>
+    <string name="hasil">Hasil</string>
+    <string name="mainactivity2">MainActivity2</string>
+    <string name="luas">Luas :</string>
+    <string name="volume">volume :</string>
+    <string name="hasil_ac2">Hasil</string>
+</resources>
