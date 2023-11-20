@@ -1,0 +1,2 @@
+# ApiCorona
+Dalam Project ini saya membuat project yang berisikan daftar kasus corona di berbagai negara didunia. Di halaman utama berisikan daftar negara-negara didunia dan halaman detail yang berisikan tentang nama negaranya, total kasus yang sudah terjadi, total kematian yang di akibatkan corona, total orang yang berhasil selamat atau disembuhkan dari corona, dan kapan terakhir kali data tersebut diperbarui.
