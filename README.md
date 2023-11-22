@@ -13,6 +13,7 @@ ini adalah daftar tugas androidstudio menggunakan bahasa pemrograman Java yang t
 [Hello hello](Hellohello) membuat project yang menampilkan data dengan memanfaatkan recycle view<br>
 [Mypo(Presiden)](Mypo) membuat project yang menampilkan data dengan memanfaatkan recycle view, membuat menu di action bar, serta memanfaatkan recycle view tersebut menampilkan gambar dalam card view<br>
 # 30 Oktober - 3 November
+[Save Instance Activity](saveinstanceactivity) membuat halaman menggunakan savedinstance agak saat prangkat melakukan rotasi layar datanya masih tersimpan atau tidak ter-reset<br>
 [Hello hello](Hellohello) merubah project yang sebelumnya menggunakan arraylist manual menjadi menggunakan API yaitu pokeAPI<br>
 [Api Corona](ApiCoroba) membuat project yang mengambil data dari API public yaitu API corona dan di tampilkan dengan menggunakan recycle view<br>
 # 20-24 November
